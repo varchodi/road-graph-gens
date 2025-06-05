@@ -26,7 +26,7 @@ This iterative merging process ensures that as you add more polygons, the `road`
 ### Prerequisites
 
 - **Raylib Library:** This project heavily relies on Raylib for graphics and input. You'll need to have Raylib installed and configured for your development environment.
-  - [Raylib Installation Guide](https://github.com/raysan5/raylib/wiki/Setup-and-Installation)
+  - [Raylib Installation Guide](https://github.com/raysan5/raylib)
 
 ### Building the Project
 
@@ -36,7 +36,7 @@ This iterative merging process ensures that as you add more polygons, the `road`
     cd road-network-generator
     ```
 2.  **Compile with Raylib:**
-    Assuming you have Raylib set up, you can compile the `main.c` file using a C compiler (like GCC) and linking with Raylib.
+    Assuming you have Raylib set up, you can just compile the code.
 
     On Linux/macOS:
 
@@ -50,12 +50,14 @@ This iterative merging process ensures that as you add more polygons, the `road`
     gcc main.c -o road_shit.exe -lraylib -lopengl32 -lgdi32 -lwinmm -static
     ```
 
-    _(Note: The exact linking flags might vary depending on your Raylib installation.)_
-
 ### Running the Application
 
-After successful compilation, run the executable:
+After successful compilation, run the shit:
 
 ```bash
 ./road_shit
 ```
+
+### Att
+
+this shit still need a lot of fixes (help wanted 🙏)
