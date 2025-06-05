@@ -1,4 +1,4 @@
-# Road Network Generator
+# Road Shit (network🫤 maybe) Generator
 
 This C program, built with the Raylib library, allows users to interactively create a road-like network by defining polygons. The system automatically merges overlapping polygon boundaries to form a continuous "road" or pathway.
 
